@@ -1,0 +1,25 @@
+{
+  "name": "smartlab-frontend",
+  "version": "1.0.0",
+  "description": "The frontend of Smartlab: an application for managing smartphone repairs.",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --browser=firefox",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalex998/smartlab-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalex998/smartlab-frontend/issues"
+  },
+  "homepage": "https://github.com/dalex998/smartlab-frontend#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
