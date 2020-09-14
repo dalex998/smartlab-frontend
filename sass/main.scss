@@ -1,8 +1,12 @@
 @import "abstracts/variables";
 
+@import "base/base";
 @import "base/reset";
 @import "base/typography";
 
 @import "layout/grid";
-@import "layout/footer";
+@import "layout/sidebar";
 @import "layout/header";
+@import "layout/main-content";
+
+@import "components/actions";

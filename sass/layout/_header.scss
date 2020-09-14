@@ -1,0 +1,18 @@
+.header {
+  grid-area: head;
+  padding: 1.5rem 0;
+  justify-self: center;
+  color: $color-primary-dark;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    fill: currentColor;
+  }
+}

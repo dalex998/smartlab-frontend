@@ -1,0 +1,9 @@
+.container {
+  max-width: 120rem;
+  min-height: 80vh;
+  margin: 8rem auto;
+  display: grid;
+  grid-template-rows: min-content auto;
+  grid-template-columns: max-content 1fr;
+  grid-template-areas: "head head" "side main";
+}
